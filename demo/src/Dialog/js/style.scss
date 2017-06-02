@@ -1,0 +1,41 @@
+body,html{
+  background: #e1e1e1;
+  height:100%;
+}
+*{
+  margin:0;
+  padding: 0;
+}
+img{
+  width: auto;
+  height: auto;
+}
+#root{
+  font-size: .3rem;
+}
+
+button{
+  font-size: .32rem;
+  border:1px solid #999;
+  background: #fff;
+  padding: .2rem .5rem;
+}
+
+.zzc-dialog-btn{
+  display: -webkit-box;
+  -webkit-box-align: center;
+
+  i{
+    height: 100%;
+    width: .28rem;
+    display: block;
+
+    &.iconfont-goback {
+      background-image: url('../images/goback.png');
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-size: 100%;
+    }
+  }
+
+}
